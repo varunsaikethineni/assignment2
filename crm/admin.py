@@ -1,6 +1,10 @@
 # Register your models here.
 from django.contrib import admin
-from .models import Customer, Service, Product
+from crm.models import Customer, Service, Product
+
+admin.site.register(Customer)
+admin.site.register(Service)
+admin.site.register(Product)
 
 
 # Define the admin options for the Customer table
